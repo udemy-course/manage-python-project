@@ -5,4 +5,5 @@
     :maxdepth: 1
 
     python-env/pyenv-mac
+    python-env/pyenv-linux
 

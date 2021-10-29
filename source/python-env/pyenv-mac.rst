@@ -1,4 +1,4 @@
-pyenv 在Mac环境下的使用
+pyenv 在Mac环境下的安装
 ========================
 
 pyenv网站
@@ -98,6 +98,7 @@ https://github.com/pyenv/pyenv
 查看当前使用版本 ``pyenv versions``
 
 使用激活某一个版本 ``pyenv global 3.9.7``
+
 
 
 问题
