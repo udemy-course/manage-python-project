@@ -88,21 +88,12 @@ https://github.com/pyenv/pyenv
     ➜  ~
 
 
-基本使用
----------
-
-查看可用版本 ``pyenv install --list``
-
-安装某一个版本 ``pyenv install 3.9.7``
-
-查看当前使用版本 ``pyenv versions``
-
-使用激活某一个版本 ``pyenv global 3.9.7``
-
-
 
 问题
 ------
+
+
+安装python失败
 
 .. code-block:: bash
 
@@ -140,3 +131,11 @@ https://github.com/pyenv/pyenv
     ➜  ~ sudo rm -rf /Library/Developer/CommandLineTools
     Password:
     ➜  ~ sudo xcode-select --install
+
+
+设置global的python版本失败。可以试试
+
+
+.. code-block:: bash
+
+    pyenv rehash

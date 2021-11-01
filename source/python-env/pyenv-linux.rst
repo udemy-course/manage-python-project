@@ -1,5 +1,5 @@
 pyenv 在Linux环境下的安装
-========================
+============================
 
 pyenv网站
 
@@ -24,5 +24,31 @@ https://github.com/pyenv/pyenv
 
 安装
 ------
+
+.. code-block:: bash
+
+    curl https://pyenv.run | bash
+
+
+
+设置
+--------
+
+以zsh为例。
+
+.. code-block:: bash
+
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+    echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.profile
+    echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.profile
+    echo 'eval "$(pyenv init --path)"' >> ~/.profile
+
+    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+
+其它请参考 https://github.com/pyenv/pyenv
 
 
